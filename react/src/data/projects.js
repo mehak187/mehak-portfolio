@@ -2,23 +2,16 @@
 
 export const featured = [
   {
-    wide: true,
     meta: 'Home services marketplace · USA',
     title: 'HomePro Deals',
-    text: 'A platform like Thumbtack and Angi. Customers post jobs, local plumbers, electricians and contractors bid, and every payment is split between the provider, the platform, sales reps and charity partners.',
-    points: [
-      '300+ REST APIs powering the web and mobile apps',
-      'Stripe Connect system with automatic commission splits',
-      'Custom wallet (ProBucks), subscriptions and charity round ups',
-      'Live chat, GPS tracking and multi role authentication',
-    ],
+    text: 'A platform like Thumbtack and Angi. Customers post jobs, contractors bid, and every payment is split between the provider, the platform, sales reps and charity partners. 300+ REST APIs with live chat and GPS tracking.',
     chips: ['Laravel 11', 'React', 'Stripe Connect', 'Reverb', 'Redis', 'AWS S3'],
     img: 'img/homeprodeals.jpg',
-    url: 'https://homeprodeals.com',
-    urlLabel: 'Visit homeprodeals.com',
-    shown: 'homeprodeals.com',
-    tint: '#ffe3d9',
-    tintInk: '#c2410c',
+    url: 'https://stagefrontend.homeprodeals.com',
+    urlLabel: 'View live site',
+    shown: 'stagefrontend.homeprodeals.com',
+    tint: '#ede7ff',
+    tintInk: '#6d4aff',
   },
   {
     meta: 'Legal tech SaaS · USA',
