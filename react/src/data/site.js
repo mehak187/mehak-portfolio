@@ -14,6 +14,7 @@ export const whatsappLink = `https://wa.me/${profile.whatsappNumber}?text=${enco
 export const navLinks = [
   { href: '#services', label: 'Services' },
   { href: '#work', label: 'Work' },
+  { href: '#skills', label: 'Skills' },
   { href: '#process', label: 'Process' },
   { href: '#about', label: 'About' },
   { href: '#faq', label: 'FAQ' },

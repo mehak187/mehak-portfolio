@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import TechStrip from './components/TechStrip'
 import Services from './components/Services'
 import Work from './components/Work'
+import Skills from './components/Skills'
 import Why from './components/Why'
 import Process from './components/Process'
 import About from './components/About'
@@ -26,6 +27,7 @@ export default function App() {
       <TechStrip />
       <Services />
       <Work />
+      <Skills />
       <Why />
       <Process />
       <About />

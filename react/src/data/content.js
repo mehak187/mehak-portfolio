@@ -47,6 +47,41 @@ export const services = [
   },
 ]
 
+export const skills = [
+  {
+    group: 'Languages and frameworks',
+    items: ['PHP 8.1+', 'Laravel 10/11/12', 'JavaScript', 'React.js', 'Next.js', 'Livewire 3', 'Filament', 'Alpine.js', 'jQuery', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap'],
+  },
+  {
+    group: 'Databases and APIs',
+    items: ['MySQL', 'Eloquent ORM', 'REST API design', 'Swagger', 'Postman', 'Webhooks', 'Redis'],
+  },
+  {
+    group: 'Authentication and security',
+    items: ['Laravel Sanctum', 'Passport', 'JWT', 'OAuth', 'Socialite', 'Google 2FA', 'OTP', 'Spatie RBAC'],
+  },
+  {
+    group: 'Payments and integrations',
+    items: ['Stripe Connect', 'Stripe Subscriptions', 'PayPal', 'JazzCash', 'EasyPaisa', 'Twilio', 'SendGrid', 'Mailgun', 'Resend', 'Google Maps', 'reCAPTCHA'],
+  },
+  {
+    group: 'Real time and messaging',
+    items: ['Laravel Reverb', 'Pusher', 'Firebase Cloud Messaging', 'WebSockets'],
+  },
+  {
+    group: 'CMS and ecommerce',
+    items: ['WordPress', 'WooCommerce', 'Custom themes', 'Child themes'],
+  },
+  {
+    group: 'Cloud and DevOps',
+    items: ['AWS S3', 'DigitalOcean', 'cPanel', 'VPS', 'Docker', 'CI/CD', 'SSL and domains'],
+  },
+  {
+    group: 'Tools and workflow',
+    items: ['Git', 'GitHub', 'Pest', 'PHPUnit', 'Agile and Scrum', 'DOMPDF', 'Maatwebsite Excel', 'Intervention Image'],
+  },
+]
+
 export const reasons = [
   { title: 'I own the result', text: 'Backend, frontend, deployment. I think about your business, not just the ticket.' },
   { title: 'Clear communication', text: 'Regular written updates and demos, so you always know where your project stands.' },

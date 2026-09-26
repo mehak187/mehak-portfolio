@@ -239,6 +239,13 @@ h1,h2,h3{font-family:"Bricolage Grotesque",Inter,sans-serif;line-height:1.08;let
 .mini-tag{font-family:"JetBrains Mono";font-size:11px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em}
 .demo-note{margin-top:16px;font-size:14px;color:var(--ink-3)}
 
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.skill-group{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s,border-color .35s}
+.skill-group:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:color-mix(in srgb,var(--accent) 35%,transparent)}
+.skill-group h3{font-size:16px;font-family:"JetBrains Mono",monospace;font-weight:500;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-3);margin-bottom:18px;position:relative;z-index:1}
+.skill-chips{display:flex;flex-wrap:wrap;gap:8px;position:relative;z-index:1}
+
 /* why */
 .dark-sec{background:var(--dark);color:#f3f2fb;position:relative;overflow:hidden}
 .dark-sec .section-head p{color:#b7b6d6}
@@ -355,7 +362,7 @@ footer::before{content:"";position:absolute;top:0;left:50%;transform:translateX(
   .float-tag{display:none}
   .split{padding:22px}
   .split-amount{font-size:40px}
-  .services,.work,.steps,.mini{grid-template-columns:1fr}
+  .services,.work,.steps,.mini,.skills{grid-template-columns:1fr}
   .sub-head{font-size:22px;margin-top:44px}
   .why{grid-template-columns:1fr}
   .why div{border-right:0!important;border-bottom:1px solid var(--dark-line)}

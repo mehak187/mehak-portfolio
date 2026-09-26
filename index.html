@@ -255,6 +255,13 @@ h1,h2,h3{font-family:"Bricolage Grotesque",Inter,sans-serif;line-height:1.08;let
 .mini-tag{font-family:"JetBrains Mono";font-size:11px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em}
 .demo-note{margin-top:16px;font-size:14px;color:var(--ink-3)}
 
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.skill-group{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s,border-color .35s}
+.skill-group:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:color-mix(in srgb,var(--accent) 35%,transparent)}
+.skill-group h3{font-size:16px;font-family:"JetBrains Mono",monospace;font-weight:500;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-3);margin-bottom:18px;position:relative;z-index:1}
+.skill-chips{display:flex;flex-wrap:wrap;gap:8px;position:relative;z-index:1}
+
 /* why */
 .dark-sec{background:var(--dark);color:#f3f2fb;position:relative;overflow:hidden}
 .dark-sec .section-head p{color:#b7b6d6}
@@ -371,7 +378,7 @@ footer::before{content:"";position:absolute;top:0;left:50%;transform:translateX(
   .float-tag{display:none}
   .split{padding:22px}
   .split-amount{font-size:40px}
-  .services,.work,.steps,.mini{grid-template-columns:1fr}
+  .services,.work,.steps,.mini,.skills{grid-template-columns:1fr}
   .sub-head{font-size:22px;margin-top:44px}
   .why{grid-template-columns:1fr}
   .why div{border-right:0!important;border-bottom:1px solid var(--dark-line)}
@@ -398,6 +405,7 @@ footer::before{content:"";position:absolute;top:0;left:50%;transform:translateX(
     <div class="nav-links">
       <a href="#services">Services</a>
       <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
       <a href="#process">Process</a>
       <a href="#about">About</a>
       <a href="#faq">FAQ</a>
@@ -416,6 +424,7 @@ footer::before{content:"";position:absolute;top:0;left:50%;transform:translateX(
 <div class="mobile-menu" id="mobileMenu">
   <a href="#services">Services</a>
   <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
   <a href="#process">Process</a>
   <a href="#about">About</a>
   <a href="#faq">FAQ</a>
@@ -704,6 +713,50 @@ footer::before{content:"";position:absolute;top:0;left:50%;transform:translateX(
   </div>
 </section>
 
+<section class="section" id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Tech stack</span>
+      <h2>Everything I work with.</h2>
+      <p>Five years of production work across the Laravel and React ecosystem, plus the services around them.</p>
+    </div>
+    <div class="skills">
+      <div class="skill-group spot reveal">
+        <h3>Languages and frameworks</h3>
+        <div class="skill-chips"><span class="chip">PHP 8.1+</span><span class="chip">Laravel 10/11/12</span><span class="chip">JavaScript</span><span class="chip">React.js</span><span class="chip">Next.js</span><span class="chip">Livewire 3</span><span class="chip">Filament</span><span class="chip">Alpine.js</span><span class="chip">jQuery</span><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">Tailwind CSS</span><span class="chip">Bootstrap</span></div>
+      </div>
+      <div class="skill-group spot reveal">
+        <h3>Databases and APIs</h3>
+        <div class="skill-chips"><span class="chip">MySQL</span><span class="chip">Eloquent ORM</span><span class="chip">REST API design</span><span class="chip">Swagger</span><span class="chip">Postman</span><span class="chip">Webhooks</span><span class="chip">Redis</span></div>
+      </div>
+      <div class="skill-group spot reveal">
+        <h3>Authentication and security</h3>
+        <div class="skill-chips"><span class="chip">Laravel Sanctum</span><span class="chip">Passport</span><span class="chip">JWT</span><span class="chip">OAuth</span><span class="chip">Socialite</span><span class="chip">Google 2FA</span><span class="chip">OTP</span><span class="chip">Spatie RBAC</span></div>
+      </div>
+      <div class="skill-group spot reveal">
+        <h3>Payments and integrations</h3>
+        <div class="skill-chips"><span class="chip">Stripe Connect</span><span class="chip">Stripe Subscriptions</span><span class="chip">PayPal</span><span class="chip">JazzCash</span><span class="chip">EasyPaisa</span><span class="chip">Twilio</span><span class="chip">SendGrid</span><span class="chip">Mailgun</span><span class="chip">Resend</span><span class="chip">Google Maps</span><span class="chip">reCAPTCHA</span></div>
+      </div>
+      <div class="skill-group spot reveal">
+        <h3>Real time and messaging</h3>
+        <div class="skill-chips"><span class="chip">Laravel Reverb</span><span class="chip">Pusher</span><span class="chip">Firebase Cloud Messaging</span><span class="chip">WebSockets</span></div>
+      </div>
+      <div class="skill-group spot reveal">
+        <h3>CMS and ecommerce</h3>
+        <div class="skill-chips"><span class="chip">WordPress</span><span class="chip">WooCommerce</span><span class="chip">Custom themes</span><span class="chip">Child themes</span></div>
+      </div>
+      <div class="skill-group spot reveal">
+        <h3>Cloud and DevOps</h3>
+        <div class="skill-chips"><span class="chip">AWS S3</span><span class="chip">DigitalOcean</span><span class="chip">cPanel</span><span class="chip">VPS</span><span class="chip">Docker</span><span class="chip">CI/CD</span><span class="chip">SSL and domains</span></div>
+      </div>
+      <div class="skill-group spot reveal">
+        <h3>Tools and workflow</h3>
+        <div class="skill-chips"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Pest</span><span class="chip">PHPUnit</span><span class="chip">Agile and Scrum</span><span class="chip">DOMPDF</span><span class="chip">Maatwebsite Excel</span><span class="chip">Intervention Image</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section dark-sec">
   <div class="aurora" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
   <div class="wrap">
@@ -805,6 +858,7 @@ footer::before{content:"";position:absolute;top:0;left:50%;transform:translateX(
     <span>© <span id="yr">2026</span> Mehak Amir. Laravel and React Developer.</span>
     <div class="foot-links">
       <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
       <a href="mailto:mehakamir187@gmail.com">Email</a>
       <a href="https://www.linkedin.com/in/mehakamir187" target="_blank" rel="noopener">LinkedIn</a>
     </div>
