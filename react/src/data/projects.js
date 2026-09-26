@@ -75,7 +75,6 @@ export const moreWork = [
   { title: 'Jewnest', text: 'B2B wholesale jewelry marketplace connecting bulk buyers with verified suppliers worldwide.', tag: 'Marketplace', img: 'img/jewnest.jpg', url: 'https://jewnest.com' },
   { title: 'Vetted Pay', text: 'Payment processor comparison platform for high risk businesses, on a fully custom theme.', tag: 'WordPress', img: 'img/vettedpay.jpg', url: 'https://vettedpay.co' },
   { title: 'LUXE', text: 'Fashion store with live search, product variants, cart animations and a full checkout flow.', tag: 'React ecommerce', img: 'img/luxe.jpg', url: 'https://mehak-ecommerce-store.netlify.app' },
-  { title: 'BoogEat', text: 'Restaurant discovery and table booking platform with reviews, city guides and a rewards program.', tag: 'Booking platform', img: 'img/boogeat.jpg', url: 'https://resturentss.netlify.app' },
   { title: 'Kavro', text: 'AI travel assistant that reads live fare data and answers flight questions in plain language.', tag: 'AI product', img: 'img/kavro.jpg', url: 'https://kevros.co' },
   { title: 'Minutes Mail', text: 'UAE ecommerce store selling desk, travel and daily use products.', tag: 'Online store', img: 'img/minutesmail.jpg', url: 'https://minutesmail.co' },
   { title: 'Ireti Capital', text: 'Website for an FX and emerging markets firm offering liquidity and advisory services.', tag: 'Finance', img: 'img/ireti.jpg', url: 'https://ireticapital.com' },
