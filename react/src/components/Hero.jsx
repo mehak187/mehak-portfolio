@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { paymentSplit, stats, whatsappLink } from '../data/site'
 import { icons, WhatsAppIcon } from './Icons'
 import Reveal from './Reveal'
+import Aurora from './Aurora'
 
 function Counter({ value, suffix }) {
   const [shown, setShown] = useState(0)
@@ -36,7 +37,7 @@ function SplitCard() {
 
   return (
     <Reveal className="split-wrap" onShow={() => setTimeout(() => setGo(true), 300)}>
-      <div className={`split ${go ? 'go' : ''}`}>
+      <div className={`split ${go ? 'go' : ''}`} data-tilt>
         <div className="float-tag t1">
           <span className="ic">{icons.check}</span>
           <div><b>Payout sent</b><br /><span style={{ color: 'var(--ink-3)' }}>to 4 accounts</span></div>
@@ -72,6 +73,7 @@ function SplitCard() {
 export default function Hero() {
   return (
     <header className="hero" id="top">
+      <Aurora />
       <div className="wrap hero-grid">
         <div>
           <Reveal className="status"><span className="dot" />Available for new projects</Reveal>

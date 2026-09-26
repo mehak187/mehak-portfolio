@@ -6,7 +6,7 @@ function Project({ project }) {
   return (
     <Reveal
       as="article"
-      className={`proj ${project.wide ? 'wide' : ''}`}
+      className={`proj spot ${project.wide ? 'wide' : ''}`}
       style={{ '--tint': project.tint, '--tint-ink': project.tintInk }}
     >
       <div className="shot">
@@ -55,7 +55,7 @@ export default function Work() {
         <Reveal as="h3" className="sub-head">More live work</Reveal>
         <Reveal className="mini">
           {moreWork.map((item) => (
-            <a className="mini-card" href={item.url} target="_blank" rel="noopener noreferrer" key={item.title}>
+            <a className="mini-card" href={item.url} target="_blank" rel="noopener noreferrer" key={item.title} data-tilt>
               <div className="mini-shot">
                 <img src={item.img} alt={`${item.title} screenshot`} loading="lazy" />
               </div>

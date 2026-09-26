@@ -1,9 +1,11 @@
 import { reasons } from '../data/content'
 import Reveal from './Reveal'
+import Aurora from './Aurora'
 
 export default function Why() {
   return (
     <section className="section dark-sec">
+      <Aurora />
       <div className="wrap">
         <Reveal className="section-head">
           <span className="eyebrow">Why clients work with me</span>

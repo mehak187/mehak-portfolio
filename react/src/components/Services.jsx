@@ -13,7 +13,7 @@ export default function Services() {
         </Reveal>
         <div className="services">
           {services.map((service) => (
-            <Reveal className={`card ${service.featured ? 'featured' : ''}`} key={service.title}>
+            <Reveal className={`card spot ${service.featured ? 'featured' : ''}`} key={service.title}>
               <div className="ic">{icons[service.icon]}</div>
               <h3>{service.title}</h3>
               <p>{service.text}</p>
