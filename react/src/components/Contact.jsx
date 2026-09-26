@@ -7,6 +7,7 @@ export default function Contact() {
     <section className="section" id="contact" style={{ paddingTop: 20 }}>
       <div className="wrap">
         <Reveal className="cta">
+          <span className="cta-dots" aria-hidden="true" />
           <h2>Have a project in mind? Let's build it.</h2>
           <p>Message me on WhatsApp with a short description. I'll reply with ideas and a quote, no commitment.</p>
           <div className="cta-btns">

@@ -33,10 +33,10 @@ export const techStack = [
 export const paymentSplit = {
   amount: '$1,200.00',
   rows: [
-    { name: 'Service provider', value: '$1,020.00', width: '85%', color: '#ff5a36' },
-    { name: 'Platform fee', value: '$120.00', width: '10%', color: '#f2f0ea' },
-    { name: 'Sales rep', value: '$36.00', width: '3%', color: '#7c8cff' },
-    { name: 'Charity partner', value: '$24.00', width: '2%', color: '#3ddc97' },
+    { name: 'Service provider', value: '$1,020.00', width: '85%', color: '#8b5cf6' },
+    { name: 'Platform fee', value: '$120.00', width: '10%', color: '#22d3ee' },
+    { name: 'Sales rep', value: '$36.00', width: '3%', color: '#f472b6' },
+    { name: 'Charity partner', value: '$24.00', width: '2%', color: '#34d399' },
   ],
 }
 
