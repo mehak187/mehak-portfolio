@@ -377,3 +377,26 @@ footer::before{content:"";position:absolute;top:0;left:50%;transform:translateX(
   .split-foot{flex-direction:column}
   .blob{filter:blur(70px);opacity:.35}
 }
+@media (max-width:430px){
+  .wrap{padding:0 14px}
+  .hero-cta{flex-direction:column;align-items:stretch}
+  .hero-cta .btn{width:100%;justify-content:center}
+  .btn{padding:14px 20px}
+  .stat{padding:16px 12px}
+  .stat b{font-size:28px}
+  .stat span{font-size:12px;line-height:1.35}
+  .status{font-size:13px}
+  .nav-in{height:66px}
+  .logo{font-size:17px;gap:8px}
+  .logo-mark{width:32px;height:32px}
+  .icon-btn{width:38px;height:38px}
+  .mobile-menu{inset:66px 0 auto 0}
+  .win-bar .url{font-size:10px;max-width:150px}
+  .skill-group,.card,.step{padding:22px}
+  .proj-body,.proj.wide .proj-body{padding:20px}
+  .split{padding:18px}
+  .split-amount{font-size:34px}
+  .cta{padding:48px 18px}
+  .more{padding:20px}
+  .bg-fx b{display:none}
+}
