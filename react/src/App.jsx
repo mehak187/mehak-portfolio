@@ -10,6 +10,7 @@ import About from './components/About'
 import Faq from './components/Faq'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import BgFx from './components/BgFx'
 import { initEffects } from './effects'
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
   return (
     <>
       <div className="progress" />
+      <BgFx />
       <Nav />
       <Hero />
       <TechStrip />
