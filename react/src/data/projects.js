@@ -72,7 +72,6 @@ export const featured = [
 
 export const moreWork = [
   { title: 'Codexa Soft', text: 'Corporate website for a software company, built with advanced animations and effects.', tag: 'Corporate site', img: 'img/codexasoft.jpg', url: 'https://codexasoft.com' },
-  { title: 'Jewnest', text: 'B2B wholesale jewelry marketplace connecting bulk buyers with verified suppliers worldwide.', tag: 'Marketplace', img: 'img/jewnest.jpg', url: 'https://jewnest.com' },
   { title: 'Vetted Pay', text: 'Payment processor comparison platform for high risk businesses, on a fully custom theme.', tag: 'WordPress', img: 'img/vettedpay.jpg', url: 'https://vettedpay.co' },
   { title: 'LUXE', text: 'Fashion store with live search, product variants, cart animations and a full checkout flow.', tag: 'React ecommerce', img: 'img/luxe.jpg', url: 'https://mehak-ecommerce-store.netlify.app' },
   { title: 'Kavro', text: 'AI travel assistant that reads live fare data and answers flight questions in plain language.', tag: 'AI product', img: 'img/kavro.jpg', url: 'https://kevros.co' },
