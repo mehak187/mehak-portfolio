@@ -11,3 +11,4 @@ Single page site: `index.html` with project screenshots in `img/`.
 Netlify: drag this folder onto https://app.netlify.com/drop
 
 GitHub Pages: repo Settings then Pages then Deploy from branch `main` and folder `/ (root)`.
+
